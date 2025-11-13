@@ -1,4 +1,4 @@
-# 📘 Data Pipeline (PySpark) 
+# 📘 Data Pipeline (PySpark) Overview 
 A fully functional, scalable ETL data pipeline built using PySpark, supporting:
 
     - Modular plug-able transformations
@@ -7,11 +7,11 @@ A fully functional, scalable ETL data pipeline built using PySpark, supporting:
 
     - Connector-based design (file system, extendable to S3/GCP/SQL)
 
-    - Multi-output formats
+    - Docker packaging
 
-    - CI/CD workflow for automated testing
+    - GitHub Actions CI/CD
 
-    - Flexible input/output connectors
+    - Clean folder structure
 
     - Easy local + container execution
 
@@ -69,17 +69,6 @@ flowchart TD;
 ```
 
 
-
-
-
-
-
-
-
-
-
-
-
 # 🔧 Features
 
 ### ✔ Scalable PySpark Pipeline
@@ -128,7 +117,7 @@ GitHub Actions workflow runs the ETL pipeline automatically.
 ]
 ```
 
-# 🧩 4. Transformations
+# 🧩 Transformations
 GroupBy Transformation (`group_by.py`)
 ```python
 from pyspark.sql import functions as F
