@@ -1,0 +1,3 @@
+{}
+{"region":"South","sum(sales)":150,"target":200}
+{"region":"North","sum(sales)":300,"target":250}
