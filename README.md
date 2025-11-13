@@ -48,7 +48,7 @@ flowchart TD;
     end
 
     subgraph ETL[⚙️ PySpark ETL Pipeline]
-        C[Read Input Files<br>spark.read.json()]
+        C[Read Input Files<br>spark.read.json]
         D[Transformation 1:<br>GroupBy Sales]
         E[Transformation 2:<br>Join with Targets]
         F[Final DataFrame]
