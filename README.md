@@ -192,9 +192,6 @@ You can easily add:
 * ✔ logging & monitoring
 
 This structure follows the standard modular ETL architecture used in production.
-
-# ETL Data Pipeline
-
 <!-- GitHub Actions -->
 [![ETL Pipeline Test](https://github.com/makresh-dev/data_pipeline-ETL-/actions/workflows/etl-test.yml/badge.svg)](https://github.com/makresh-dev/data_pipeline-ETL-/actions/workflows/docker-build-and-push.yml)
 <!-- Python version -->
