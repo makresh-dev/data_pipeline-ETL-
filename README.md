@@ -192,3 +192,23 @@ You can easily add:
 * ✔ logging & monitoring
 
 This structure follows the standard modular ETL architecture used in production.
+
+# ETL Data Pipeline
+
+<!-- GitHub Actions -->
+[![ETL Pipeline Test](https://github.com/makresh-dev/data_pipeline-ETL-/actions/workflows/etl-pipeline-test.yml/badge.svg)](https://github.com/makresh-dev/data_pipeline-ETL-/actions/workflows/etl-pipeline-test.yml)
+
+<!-- Python version -->
+![Python Version](https://img.shields.io/badge/python-3.10-blue)
+
+<!-- Repo size -->
+![Repo Size](https://img.shields.io/github/repo-size/makresh-dev/data_pipeline-ETL-)
+
+<!-- Last commit -->
+![Last Commit](https://img.shields.io/github/last-commit/makresh-dev/data_pipeline-ETL-)
+
+<!-- License -->
+![License](https://img.shields.io/badge/license-MIT-green)
+
+<!-- Issues -->
+![Issues](https://img.shields.io/github/issues/makresh-dev/data_pipeline-ETL-)

@@ -1,3 +1,6 @@
+# Workflow Badge
+# ![ETL Pipeline Test](https://github.com/makresh-dev/data_pipeline-ETL-/actions/workflows/etl-pipeline-test.yml/badge.svg)
+
 name: ETL Pipeline Test
 
 # Run on pushes and pull requests for main branch
@@ -42,7 +45,6 @@ jobs:
         run: mkdir -p output
 
       - name: Run ETL pipeline
-        # run from repository root so absolute paths in pipeline work
         run: python src/pipeline.py
 
       - name: Verify output
